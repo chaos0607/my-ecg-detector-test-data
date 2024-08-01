@@ -1,5 +1,5 @@
 cpp detector(v0.1):
-['two_average_detector', 'wqrs_detector']
+['two_average_detector', 'wqrs_detector', 'engzee_detector']
 two_average_detector sitting [100.         100.         100.         100.         100.
  100.         100.         100.         100.         100.
  100.          71.42857143 100.         100.         100.
@@ -10,6 +10,11 @@ wqrs_detector sitting [ 95.09433962  56.40854473 100.         100.          99.6
  100.          66.66666667  99.77728285  99.6763754   66.4921466
   99.65397924  99.60784314  71.42857143  47.90165324  82.71604938
  100.         100.         100.          71.50537634  99.58506224]
+engzee_detector sitting [100.          50.40262452 100.         100.         100.
+ 100.         100.         100.         100.         100.
+ 100.           3.73831776  79.03225806  98.01324503 100.
+ 100.           1.5625      93.61702128 100.         100.
+ 100.          50.86705202 100.         100.          99.58506224]
 two_average_detector maths [100.          71.42857143 100.         100.         100.
  100.         100.         100.         100.         100.
  100.          55.55555556 100.         100.         100.
@@ -20,6 +25,11 @@ wqrs_detector maths [ 98.08429119  53.44270445 100.         100.         100.
  100.          47.61904762 100.         100.          47.73869347
  100.          99.60474308 100.          52.016585    98.71794872
   99.71014493 100.         100.          98.27586207  98.4375    ]
+engzee_detector maths [100.          95.1754386  100.         100.         100.
+ 100.         100.         100.         100.         100.
+ 100.           2.7100271   97.70992366  99.04761905 100.
+ 100.          82.79069767 100.         100.         100.
+  99.70845481  33.12101911 100.         100.         100.        ]
 two_average_detector walking [100.         100.         100.         100.         100.
  100.         100.         100.         100.         100.
  100.          71.42857143 100.         100.          71.18311242
@@ -30,6 +40,11 @@ wqrs_detector walking [ 98.99665552  70.51516259  99.68253968 100.         100.
  100.          47.49725977 100.         100.          43.12668464
  100.         100.         100.          51.42857143  99.07120743
   71.42857143  98.91696751 100.          97.2826087  100.        ]
+engzee_detector walking [100.          70.69970845 100.         100.         100.
+ 100.         100.          71.42857143 100.         100.
+ 100.          85.58758315  95.76547231  68.99902818 100.
+  19.63190184  50.48543689  83.33333333 100.          98.86363636
+  58.58585859 100.          99.73333333 100.        ]
 two_average_detector hand_bike [100.          71.42857143 100.         100.          99.71181556
  100.         100.         100.         100.         100.
   69.76744186 100.          99.35897436  69.72208679 100.
@@ -40,6 +55,11 @@ wqrs_detector hand_bike [ 98.75776398  65.49118388  71.42857143  71.02728732  99
   47.61904762 100.          70.26523965  42.07407407 100.
  100.         100.          48.76996116  63.25301205 100.
   98.61111111 100.          69.47697112  69.37307297]
+engzee_detector hand_bike [100.          62.11180124 100.         100.         100.
+  99.71830986 100.         100.         100.         100.
+  72.6618705   71.13095238  96.66666667  53.42624855 100.
+   8.95522388  43.82022472  50.58548009  87.4617737   99.09365559
+  26.66666667 100.          98.88888889  62.28373702]
 two_average_detector jogging [100.          79.48243993 100.         100.          98.54545455
  100.         100.          49.54954955  98.7654321   82.89550496
   69.21029281  71.42857143  97.03315881  98.18913481  95.30956848
@@ -50,48 +70,58 @@ wqrs_detector jogging [ 70.82579867  54.04315386  71.42857143 100.          71.4
   54.43998215  68.29573935  70.5709385   70.71571143  70.91284167
   99.28741093 100.          68.86446886  70.42253521  71.42857143
   99.26289926 100.          66.68423827  70.86391869]
-JF Score: sitting chest strap
+engzee_detector jogging [ 99.79035639  64.56532791  83.1758034  100.          99.64028777
+ 100.         100.          93.33333333  98.58657244  99.82547993
+  92.50535332  59.23566879  89.30581614  82.51748252  97.98903108
+   9.56632653  10.71428571  62.63194933  97.265625    97.91666667
+  71.69811321  94.21157685  95.30685921  94.25742574]
+JF Score of cpp detectors: sitting chest strap
 two_average_detector: 98.9+/-5.6
 wqrs_detector: 90.2+/-16.0
+engzee_detector: 87.1+/-28.4
 
-JF Score: maths chest strap
+JF Score of cpp detectors: maths chest strap
 two_average_detector: 97.1+/-10.2
 wqrs_detector: 91.7+/-18.2
+engzee_detector: 92.4+/-22.6
 
-JF Score: walking chest strap
+JF Score of cpp detectors: walking chest strap
 two_average_detector: 97.7+/-7.8
 wqrs_detector: 89.9+/-18.3
+engzee_detector: 87.6+/-20.5
 
-JF Score: hand bike chest strap
+JF Score of cpp detectors: hand bike chest strap
 two_average_detector: 93.7+/-12.0
 wqrs_detector: 83.9+/-19.9
+engzee_detector: 80.6+/-26.6
 
-JF Score: jogging chest strap
+JF Score of cpp detectors: jogging chest strap
 two_average_detector: 86.9+/-14.6
 wqrs_detector: 74.5+/-17.6
+engzee_detector: 83.1+/-25.3
 
 
 Stats: chest_strap_V2_V1 sitting
-      & two_average_detector  & wqrs_detector  & \\
-0.00* & 0.47 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.00* & 0.47 & 0.69 & 
 Stats: chest_strap_V2_V1 maths
-      & two_average_detector  & wqrs_detector  & \\
-0.00* & 0.32 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.00* & 0.32 & 0.30 & 
 Stats: chest_strap_V2_V1 walking
-      & two_average_detector  & wqrs_detector  & \\
-0.00* & 0.51 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.00* & 0.51 & 0.71 & 
 Stats: chest_strap_V2_V1 hand_bike
-      & two_average_detector  & wqrs_detector  & \\
-0.07 & 0.92 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.07 & 0.92 & 0.95 & 
 Stats: chest_strap_V2_V1 jogging
-      & two_average_detector  & wqrs_detector  & \\
-0.84 & 1.00 &
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.84 & 1.00 & 0.90 & 
 
 
 
 
 python detector:
-['two_average_detector', 'wqrs_detector']
+['two_average_detector', 'wqrs_detector', 'engzee_detector']
 two_average_detector sitting [100.         100.         100.         100.         100.
  100.         100.         100.         100.         100.
  100.         100.         100.          71.197411   100.
@@ -102,6 +132,11 @@ wqrs_detector sitting [ 95.09433962  56.40854473 100.         100.          99.6
  100.          66.66666667  99.77728285  99.6763754   66.4921466
   99.65397924  99.60784314  71.42857143  47.90165324  82.71604938
  100.         100.         100.          71.50537634  99.58506224]
+engzee_detector sitting [100.          68.83910387 100.         100.         100.
+ 100.         100.         100.         100.         100.
+ 100.          17.09401709  59.81308411  98.01324503 100.
+ 100.           1.5625      96.69421488 100.         100.
+ 100.          10.29411765 100.         100.         100.        ]
 two_average_detector maths [100.          71.26660188 100.         100.         100.
   71.42857143 100.          71.42857143 100.         100.
  100.         100.         100.          71.42857143 100.
@@ -112,6 +147,11 @@ wqrs_detector maths [ 98.08429119  53.44270445 100.         100.         100.
  100.          47.61904762 100.         100.          47.73869347
  100.          99.60474308 100.          52.016585    98.71794872
   99.71014493 100.         100.          98.27586207  98.4375    ]
+engzee_detector maths [100.          99.54545455 100.         100.         100.
+ 100.         100.         100.         100.         100.
+ 100.          13.84615385  89.25619835  99.04761905 100.
+ 100.          63.04347826 100.         100.         100.
+  99.70845481   4.47761194 100.         100.         100.        ]
 two_average_detector walking [100.         100.         100.         100.         100.
   99.70149254 100.          83.33333333  71.42857143 100.
  100.         100.         100.          71.42857143  70.69722087
@@ -122,6 +162,11 @@ wqrs_detector walking [ 98.99665552  70.51516259  99.68253968 100.         100.
  100.          47.49725977 100.         100.          43.12668464
  100.         100.         100.          51.42857143  99.07120743
   71.42857143  98.91696751 100.          97.2826087  100.        ]
+engzee_detector walking [100.         100.         100.         100.         100.
+ 100.         100.         100.         100.         100.
+ 100.           2.48756219  70.02518892  94.38943894  97.24137931
+ 100.          17.39130435  70.04219409  98.79518072 100.
+  98.28571429  21.65605096 100.         100.         100.        ]
 two_average_detector hand_bike [100.         100.         100.         100.          71.42857143
  100.         100.         100.         100.          71.42857143
   99.21259843 100.          71.42857143  70.20127639  71.42857143
@@ -132,6 +177,11 @@ wqrs_detector hand_bike [ 98.75776398  65.49118388  71.42857143  71.02728732  99
   47.61904762 100.          70.26523965  42.07407407 100.
  100.         100.          48.76996116  63.25301205 100.
   98.61111111 100.          69.47697112  69.37307297]
+engzee_detector hand_bike [100.          84.25925926 100.          99.71830986 100.
+  99.71830986 100.         100.         100.         100.
+  74.91856678  98.52631579  91.98606272  73.17073171 100.
+   3.07692308  67.61904762  79.42238267  87.34939759  98.78787879
+   6.75675676 100.          94.4         82.1656051 ]
 two_average_detector jogging [100.          69.21675774 100.         100.         100.
   71.42857143 100.          13.55661882  67.35069718  99.65034965
   37.01923077 100.          99.65986395  71.28712871  68.63527534
@@ -142,39 +192,49 @@ wqrs_detector jogging [ 70.82579867  54.04315386  71.42857143 100.          71.4
   54.43998215  68.29573935  70.5709385   70.71571143  70.91284167
   99.28741093 100.          68.86446886  70.42253521  71.42857143
   99.26289926 100.          66.68423827  70.86391869]
-JF Score: sitting chest strap
+engzee_detector jogging [100.          90.03690037 100.         100.          99.27797834
+ 100.          99.78586724  91.70305677  98.94366197  99.82547993
+  94.51476793  58.33333333  84.765625    78.26086957  97.6146789
+   8.25688073  13.21585903  85.9223301   97.59036145  97.70354906
+  58.62068966  95.04950495  95.66787004  96.20758483]
+JF Score of cpp detectors: sitting chest strap
 two_average_detector: 97.7+/-7.8
 wqrs_detector: 90.2+/-16.0
+engzee_detector: 86.1+/-29.9
 
-JF Score: maths chest strap
+JF Score of cpp detectors: maths chest strap
 two_average_detector: 91.4+/-14.2
 wqrs_detector: 91.7+/-18.2
+engzee_detector: 90.8+/-25.2
 
-JF Score: walking chest strap
+JF Score of cpp detectors: walking chest strap
 two_average_detector: 93.6+/-11.6
 wqrs_detector: 89.9+/-18.3
+engzee_detector: 86.8+/-28.3
 
-JF Score: hand bike chest strap
+JF Score of cpp detectors: hand bike chest strap
 two_average_detector: 91.3+/-13.1
 wqrs_detector: 83.9+/-19.9
+engzee_detector: 85.1+/-26.1
 
-JF Score: jogging chest strap
+JF Score of cpp detectors: jogging chest strap
 two_average_detector: 84.1+/-23.5
 wqrs_detector: 74.5+/-17.6
+engzee_detector: 85.1+/-25.2
 
 
 Stats: chest_strap_V2_V1 sitting
-      & two_average_detector  & wqrs_detector  & \\
-0.00* & 0.47 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.00* & 0.47 & 0.74 & 
 Stats: chest_strap_V2_V1 maths
-      & two_average_detector  & wqrs_detector  & \\
-0.32 & 0.32 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.32 & 0.32 & 0.44 & 
 Stats: chest_strap_V2_V1 walking
-      & two_average_detector  & wqrs_detector  & \\
-0.07 & 0.51 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.07 & 0.51 & 0.71 & 
 Stats: chest_strap_V2_V1 hand_bike
-      & two_average_detector  & wqrs_detector  & \\
-0.32 & 0.92 & 
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.32 & 0.92 & 0.81 & 
 Stats: chest_strap_V2_V1 jogging
-      & two_average_detector  & wqrs_detector  & \\
-0.88 & 1.00 &
+      & two_average_detector  & wqrs_detector  & engzee_detector  & \\
+0.88 & 1.00 & 0.82 & 
